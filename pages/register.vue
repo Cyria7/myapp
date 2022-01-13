@@ -30,7 +30,23 @@
               <el-input v-model="stuform.xh"> </el-input>
             </el-form-item>
             <el-form-item label="毕业年份">
-              <el-date-picker type="date" placeholder="选择" v-model="stuform.gradyear" style="width: 100%"></el-date-picker>
+              <el-date-picker type="date" placeholder="选择毕业时间" v-model="stuform.gradyear" style="width: 100%"></el-date-picker>
+            </el-form-item>
+            <el-form-item label="手机号码">
+              <el-input v-model="stuform.phone" placeholder="请输入手机号码"></el-input>
+            </el-form-item>
+            <el-form-item label="邮箱地址">
+              <el-input v-model="stuform.email" placeholder="请输入邮箱地址"></el-input>
+            </el-form-item>
+            <el-form-item label="昵称">
+              <el-input v-model="stuform.nickname" placeholder="请输入昵称"></el-input>
+            </el-form-item>
+            <el-form-item label="所在城市">
+              <el-input v-model="stuform.location" placeholder="请输入所在城市"></el-input>
+            </el-form-item>
+            <el-form-item>
+              <el-button type="primary" @click="onSubmit">立即创建</el-button>
+              <el-button>取消</el-button>
             </el-form-item>
           </el-form>
         </div>
@@ -58,6 +74,11 @@ export default {
         location: '',
       },
     }
+  },
+  methods: {
+    onSubmit() {
+      console.log('submit')
+    },
   },
 }
 </script>
