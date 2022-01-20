@@ -77,7 +77,7 @@ export default {
       teacherform: {
         name: '',
         sfz: '',
-        sex: '男',
+        sex: '女',
         college: '',
         gh: '',
         phone: '',
