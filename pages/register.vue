@@ -49,6 +49,7 @@
               <el-button>取消</el-button>
             </el-form-item>
           </el-form>
+          <!-- 学生表单完成 -->
         </div>
       </el-col>
     </el-row>
@@ -72,6 +73,17 @@ export default {
         email: '',
         nickname: '',
         location: '',
+      },
+      teacherform: {
+        name: '',
+        sfz: '',
+        sex: '男',
+        college: '',
+        gh: '',
+        phone: '',
+        email: '',
+        location: '',
+        nickname: '',
       },
     }
   },
