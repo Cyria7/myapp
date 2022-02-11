@@ -1,14 +1,16 @@
 .container-reg {
   margin: auto;
   /* width: 800px; */
-  background-repeat: repeat -y;
-  background-image: url('~/static/background/greenImage.jpg');
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('~/static/images/00.jpg');
 }
 .reg-wrap {
   width: 400px;
   border-radius: 10px;
   padding: 20px 50px 20px 20px;
-  margin: 30px auto;
+  margin: 50px auto;
   background-color: rgba(255, 255, 255, 0.61);
 }
 .rd-group {
