@@ -22,8 +22,10 @@
         <div class="usrinfo">
           <a class="usr-name" href="login">登录</a>|
           <a class="usr-name" href="register">注册</a>
-          <div>
-            <el-avatar> user </el-avatar>
+          <div href="myinfo">
+            <a href="myinfo">
+              <el-avatar>用户</el-avatar>
+            </a>
           </div>
         </div>
       </el-col>

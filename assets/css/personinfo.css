@@ -1,0 +1,48 @@
+.info-container {
+  /* background-color: #f1f1f1; */
+  padding-top: 20px;
+}
+.content {
+  padding-left: 20px;
+}
+.part-head {
+  /* float: left; */
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #634141;
+
+  display: table;
+}
+.form-name {
+  float: left;
+}
+.form-name h2 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.form-function a {
+  text-decoration: none;
+  color: #409eff;
+}
+.form-function {
+  float: right;
+  /* margin: auto; */
+  display: table-cell;
+  vertical-align: bottom;
+}
+.main-info {
+  margin-bottom: 0px;
+}
+
+.one-end {
+  height: 1px;
+  background-color: #6b6b6b;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  /* border-bottom: black; */
+}
+
+.part-info i {
+  margin-right: 15px;
+}
