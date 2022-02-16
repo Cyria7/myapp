@@ -22,7 +22,7 @@
         <div class="usrinfo">
           <a class="usr-name" href="login">登录</a>|
           <a class="usr-name" href="register">注册</a>
-          <div href="myinfo">
+          <div class="user-avatar">
             <a href="myinfo">
               <el-avatar>用户</el-avatar>
             </a>
@@ -106,5 +106,8 @@ export default {
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
+}
+.usr-avatar {
+  width: min-content;
 }
 </style>
